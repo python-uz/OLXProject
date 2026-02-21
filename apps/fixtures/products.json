@@ -1,0 +1,782 @@
+[
+  {
+    "model": "apps.product",
+    "pk": 1,
+    "fields": {
+      "category": 4,
+      "name": "Силиконовый чехол для iPhone 15 Pro",
+      "slug": "silikonovyy-chekhol-dlya-iphone-15-pro",
+      "description": "Мягкий силиконовый чехол с защитой от пыли и ударов. Тонкий и легкий.",
+      "price": 165000,
+      "created_at": "2024-01-15T10:30:00Z",
+      "updated_at": "2024-01-15T10:30:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 2,
+    "fields": {
+      "category": 4,
+      "name": "Силиконовый чехол для Samsung S24",
+      "slug": "silikonovyy-chekhol-dlya-samsung-s24",
+      "description": "Оригинальный силиконовый чехол с мягкой текстурой. Доступен в 5 цветах.",
+      "price": 152000,
+      "created_at": "2024-01-15T11:20:00Z",
+      "updated_at": "2024-01-15T11:20:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 3,
+    "fields": {
+      "category": 5,
+      "name": "Кожаный чехол-книжка для iPhone 14",
+      "slug": "kozhanyy-chekhol-knizhka-dlya-iphone-14",
+      "description": "Стильный чехол из натуральной кожи с отделением для карт.",
+      "price": 319000,
+      "created_at": "2024-01-16T09:15:00Z",
+      "updated_at": "2024-01-16T09:15:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 4,
+    "fields": {
+      "category": 5,
+      "name": "Кожаный чехол для Samsung S24 Ultra",
+      "slug": "kozhanyy-chekhol-dlya-samsung-s24-ultra",
+      "description": "Премиальный чехол из натуральной кожи с защитой камеры.",
+      "price": 345000,
+      "created_at": "2024-01-16T11:30:00Z",
+      "updated_at": "2024-01-16T11:30:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 5,
+    "fields": {
+      "category": 6,
+      "name": "Чехол-книжка с магнитным замком для iPhone 15",
+      "slug": "chekhol-knizhka-s-magnitnym-zamkom-dlya-iphone-15",
+      "description": "Стильный чехол-книжка с магнитной застежкой и отделением для карт.",
+      "price": 229000,
+      "created_at": "2024-01-16T14:20:00Z",
+      "updated_at": "2024-01-16T14:20:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 6,
+    "fields": {
+      "category": 6,
+      "name": "Чехол-книжка с подставкой для Xiaomi",
+      "slug": "chekhol-knizhka-s-podstavkoy-dlya-xiaomi",
+      "description": "Практичный чехол-книжка с функцией подставки для просмотра видео.",
+      "price": 189000,
+      "created_at": "2024-01-17T10:10:00Z",
+      "updated_at": "2024-01-17T10:10:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 7,
+    "fields": {
+      "category": 7,
+      "name": "Ударопрочный чехол Armor для iPhone 15 Pro Max",
+      "slug": "udaroprochnyy-chekhol-armor-dlya-iphone-15-pro-max",
+      "description": "Максимальная защита с двойным слоем и усиленными углами. Военный стандарт.",
+      "price": 259000,
+      "created_at": "2024-01-17T13:45:00Z",
+      "updated_at": "2024-01-17T13:45:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 8,
+    "fields": {
+      "category": 7,
+      "name": "Ударопрочный чехол для Xiaomi 13T Pro",
+      "slug": "udaroprochnyy-chekhol-dlya-xiaomi-13t-pro",
+      "description": "Защитный чехол с противоударными свойствами и текстурой carbon.",
+      "price": 203000,
+      "created_at": "2024-01-18T09:30:00Z",
+      "updated_at": "2024-01-18T09:30:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 9,
+    "fields": {
+      "category": 8,
+      "name": "Чехол с выдвижной подставкой для iPhone 15",
+      "slug": "chekhol-s-vydvizhnoy-podstavkoy-dlya-iphone-15",
+      "description": "Удобный чехол со встроенной выдвижной подставкой для просмотра контента.",
+      "price": 179000,
+      "created_at": "2024-01-18T15:15:00Z",
+      "updated_at": "2024-01-18T15:15:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 10,
+    "fields": {
+      "category": 8,
+      "name": "Чехл с кольцом-подставкой для Samsung",
+      "slug": "chekhol-s-koltsom-podstavkoy-dlya-samsung",
+      "description": "Чехол с поворотным кольцом, которое служит подставкой и держателем.",
+      "price": 165000,
+      "created_at": "2024-01-19T11:20:00Z",
+      "updated_at": "2024-01-19T11:20:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 11,
+    "fields": {
+      "category": 10,
+      "name": "Защитное стекло 2.5D для iPhone 15 Pro",
+      "slug": "zashchitnoe-steklo-25d-dlya-iphone-15-pro",
+      "description": "Закаленное стекло твердостью 9H с олеофобным покрытием.",
+      "price": 75000,
+      "created_at": "2024-01-19T14:40:00Z",
+      "updated_at": "2024-01-19T14:40:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 12,
+    "fields": {
+      "category": 10,
+      "name": "Защитное стекло 2.5D для Samsung S24",
+      "slug": "zashchitnoe-steklo-25d-dlya-samsung-s24",
+      "description": "Прозрачное защитное стекло с точными вырезами под камеру и датчики.",
+      "price": 69000,
+      "created_at": "2024-01-20T10:15:00Z",
+      "updated_at": "2024-01-20T10:15:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 13,
+    "fields": {
+      "category": 11,
+      "name": "3D стекло с полным покрытием для Samsung S24 Ultra",
+      "slug": "3d-steklo-s-polnym-pokrytiem-dlya-samsung-s24-ultra",
+      "description": "Стекло с закругленными краями, покрывает весь экран, включая изгибы.",
+      "price": 101000,
+      "created_at": "2024-01-20T16:30:00Z",
+      "updated_at": "2024-01-20T16:30:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 14,
+    "fields": {
+      "category": 11,
+      "name": "3D стекло для iPhone 15 Pro Max",
+      "slug": "3d-steklo-dlya-iphone-15-pro-max",
+      "description": "Стекло с полным покрытием и защитой от синих лучей.",
+      "price": 95000,
+      "created_at": "2024-01-21T09:45:00Z",
+      "updated_at": "2024-01-21T09:45:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 15,
+    "fields": {
+      "category": 12,
+      "name": "Гидрогелевая пленка для изогнутых экранов",
+      "slug": "gidrogelevaya-plenka-dlya-izognutykh-ekranov",
+      "description": "Самовосстанавливающаяся пленка для экранов с изгибами. Легко клеится.",
+      "price": 63000,
+      "created_at": "2024-01-21T13:20:00Z",
+      "updated_at": "2024-01-21T13:20:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 16,
+    "fields": {
+      "category": 12,
+      "name": "Гидрогелевая пленка матовая",
+      "slug": "gidrogelevaya-plenka-matovaya",
+      "description": "Матовая пленка, устойчивая к царапинам и бликам.",
+      "price": 59000,
+      "created_at": "2024-01-22T11:10:00Z",
+      "updated_at": "2024-01-22T11:10:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 17,
+    "fields": {
+      "category": 13,
+      "name": "Матовая защитная пленка для iPad",
+      "slug": "matovaya-zashchitnaya-plenka-dlya-ipad",
+      "description": "Матовая пленка с эффектом бумаги для рисования и письма.",
+      "price": 89000,
+      "created_at": "2024-01-22T15:40:00Z",
+      "updated_at": "2024-01-22T15:40:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 18,
+    "fields": {
+      "category": 13,
+      "name": "Матовая пленка для ноутбука",
+      "slug": "matovaya-plenka-dlya-noutbuka",
+      "description": "Антибликовая пленка для защиты экрана ноутбука.",
+      "price": 110000,
+      "created_at": "2024-01-23T10:25:00Z",
+      "updated_at": "2024-01-23T10:25:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 19,
+    "fields": {
+      "category": 14,
+      "name": "Приватная пленка для iPhone",
+      "slug": "privatnaya-plenka-dlya-iphone",
+      "description": "Пленка, которая затемняет экран под углом, защищая от посторонних взглядов.",
+      "price": 95000,
+      "created_at": "2024-01-23T14:15:00Z",
+      "updated_at": "2024-01-23T14:15:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 20,
+    "fields": {
+      "category": 14,
+      "name": "Приватное стекло для Samsung",
+      "slug": "privatnoe-steklo-dlya-samsung",
+      "description": "Закаленное стекло с эффектом приватности и защитой 9H.",
+      "price": 115000,
+      "created_at": "2024-01-24T09:50:00Z",
+      "updated_at": "2024-01-24T09:50:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 21,
+    "fields": {
+      "category": 16,
+      "name": "Быстрая зарядка GaN 65W",
+      "slug": "bystraya-zaryadka-gan-65w",
+      "description": "Компактное зарядное устройство на GaN технологии, 2 порта USB-C.",
+      "price": 383000,
+      "created_at": "2024-01-24T13:30:00Z",
+      "updated_at": "2024-01-24T13:30:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 22,
+    "fields": {
+      "category": 16,
+      "name": "Сетевая зарядка 20W USB-C",
+      "slug": "setevaya-zaryadka-20w-usb-c",
+      "description": "Компактная зарядка для iPhone и Android с поддержкой Power Delivery.",
+      "price": 159000,
+      "created_at": "2024-01-25T11:20:00Z",
+      "updated_at": "2024-01-25T11:20:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 23,
+    "fields": {
+      "category": 16,
+      "name": "Зарядное устройство на 4 порта 40W",
+      "slug": "zaryadnoe-ustroystvo-na-4-porta-40w",
+      "description": "Многопортовая зарядка для одновременной зарядки нескольких устройств.",
+      "price": 245000,
+      "created_at": "2024-01-25T16:45:00Z",
+      "updated_at": "2024-01-25T16:45:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 24,
+    "fields": {
+      "category": 17,
+      "name": "Автомобильная зарядка 30W USB-C",
+      "slug": "avtomobilnaya-zaryadka-30w-usb-c",
+      "description": "Быстрая зарядка для авто с поддержкой Power Delivery.",
+      "price": 114000,
+      "created_at": "2024-01-26T10:30:00Z",
+      "updated_at": "2024-01-26T10:30:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 25,
+    "fields": {
+      "category": 17,
+      "name": "Автомобильная зарядка 45W с LED дисплеем",
+      "slug": "avtomobilnaya-zaryadka-45w-s-led-displeem",
+      "description": "Зарядка с цифровым дисплеем, показывает напряжение в сети авто.",
+      "price": 175000,
+      "created_at": "2024-01-26T14:15:00Z",
+      "updated_at": "2024-01-26T14:15:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 26,
+    "fields": {
+      "category": 18,
+      "name": "Беспроводная зарядка 15W",
+      "slug": "besprovodnaya-zaryadka-15w",
+      "description": "Беспроводная зарядка с поддержкой быстрой зарядки для iPhone и Android.",
+      "price": 255000,
+      "created_at": "2024-01-27T09:40:00Z",
+      "updated_at": "2024-01-27T09:40:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 27,
+    "fields": {
+      "category": 18,
+      "name": "Беспроводная зарядка 3 в 1",
+      "slug": "besprovodnaya-zaryadka-3-v-1",
+      "description": "Станция для зарядки iPhone, Apple Watch и AirPods одновременно.",
+      "price": 445000,
+      "created_at": "2024-01-27T15:50:00Z",
+      "updated_at": "2024-01-27T15:50:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 28,
+    "fields": {
+      "category": 19,
+      "name": "Пауэрбанк 20000 mAh",
+      "slug": "pauerbank-20000-mah",
+      "description": "Емкий аккумулятор с двумя портами USB и быстрой зарядкой.",
+      "price": 447000,
+      "created_at": "2024-01-28T11:25:00Z",
+      "updated_at": "2024-01-28T11:25:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 29,
+    "fields": {
+      "category": 19,
+      "name": "Пауэрбанк 10000 mAh с MagSafe",
+      "slug": "pauerbank-10000-mah-s-magsafe",
+      "description": "Компактный пауэрбанк с беспроводной зарядкой MagSafe для iPhone.",
+      "price": 329000,
+      "created_at": "2024-01-28T16:20:00Z",
+      "updated_at": "2024-01-28T16:20:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 30,
+    "fields": {
+      "category": 20,
+      "name": "Зарядная станция на 6 устройств",
+      "slug": "zaryadnaya-stantsiya-na-6-ustroystv",
+      "description": "Многопортовая станция для зарядки смартфонов, планшетов и другой техники.",
+      "price": 595000,
+      "created_at": "2024-01-29T10:15:00Z",
+      "updated_at": "2024-01-29T10:15:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 31,
+    "fields": {
+      "category": 22,
+      "name": "Кабель USB-C to USB-C 2м",
+      "slug": "kabel-usb-c-to-usb-c-2m",
+      "description": "Прочный нейлоновый кабель с поддержкой быстрой зарядки 100W.",
+      "price": 88000,
+      "created_at": "2024-01-29T14:35:00Z",
+      "updated_at": "2024-01-29T14:35:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 32,
+    "fields": {
+      "category": 22,
+      "name": "Кабель USB-C to USB-C 1м",
+      "slug": "kabel-usb-c-to-usb-c-1m",
+      "description": "Кабель в тканевой оплетке, поддержка зарядки и передачи данных.",
+      "price": 59000,
+      "created_at": "2024-01-30T09:50:00Z",
+      "updated_at": "2024-01-30T09:50:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 33,
+    "fields": {
+      "category": 23,
+      "name": "Кабель Lightning 1м (MFi)",
+      "slug": "kabel-lightning-1m-mfi",
+      "description": "Официально сертифицированный кабель для iPhone и iPad.",
+      "price": 114000,
+      "created_at": "2024-01-30T13:20:00Z",
+      "updated_at": "2024-01-30T13:20:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 34,
+    "fields": {
+      "category": 23,
+      "name": "Кабель Lightning 2м (MFi)",
+      "slug": "kabel-lightning-2m-mfi",
+      "description": "Длинный сертифицированный кабель в нейлоновой оплетке.",
+      "price": 149000,
+      "created_at": "2024-01-31T11:15:00Z",
+      "updated_at": "2024-01-31T11:15:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 35,
+    "fields": {
+      "category": 24,
+      "name": "Кабель Micro-USB 1м",
+      "slug": "kabel-micro-usb-1m",
+      "description": "Качественный кабель для старых моделей смартфонов и другой техники.",
+      "price": 45000,
+      "created_at": "2024-01-31T15:40:00Z",
+      "updated_at": "2024-01-31T15:40:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 36,
+    "fields": {
+      "category": 25,
+      "name": "Переходник OTG USB-C",
+      "slug": "perekhodnik-otg-usb-c",
+      "description": "Подключение флешек и периферии к смартфону.",
+      "price": 50000,
+      "created_at": "2024-02-01T10:30:00Z",
+      "updated_at": "2024-02-01T10:30:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 37,
+    "fields": {
+      "category": 25,
+      "name": "Переходник OTG Micro-USB",
+      "slug": "perekhodnik-otg-micro-usb",
+      "description": "Адаптер для подключения USB устройств к смартфонам с Micro-USB.",
+      "price": 45000,
+      "created_at": "2024-02-01T14:20:00Z",
+      "updated_at": "2024-02-01T14:20:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 38,
+    "fields": {
+      "category": 26,
+      "name": "Адаптер HDMI to USB-C",
+      "slug": "adapter-hdmi-to-usb-c",
+      "description": "Подключение смартфона или ноутбука к телевизору или монитору.",
+      "price": 135000,
+      "created_at": "2024-02-02T09:45:00Z",
+      "updated_at": "2024-02-02T09:45:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 39,
+    "fields": {
+      "category": 28,
+      "name": "Автомобильный держатель на присоске",
+      "slug": "avtomobilnyy-derzhatel-na-prisoske",
+      "description": "Надежный держатель для телефона в автомобиль.",
+      "price": 101000,
+      "created_at": "2024-02-02T15:10:00Z",
+      "updated_at": "2024-02-02T15:10:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 40,
+    "fields": {
+      "category": 28,
+      "name": "Автомобильный держатель в дефлектор",
+      "slug": "avtomobilnyy-derzhatel-v-deflektor",
+      "description": "Компактный держатель, крепится к решетке вентиляции.",
+      "price": 79000,
+      "created_at": "2024-02-03T11:25:00Z",
+      "updated_at": "2024-02-03T11:25:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 41,
+    "fields": {
+      "category": 29,
+      "name": "Настольная подставка для планшета",
+      "slug": "nastolnaya-podstavka-dlya-plansheta",
+      "description": "Регулируемая подставка для планшета, удобная для просмотра видео и работы.",
+      "price": 135000,
+      "created_at": "2024-02-03T16:40:00Z",
+      "updated_at": "2024-02-03T16:40:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 42,
+    "fields": {
+      "category": 29,
+      "name": "Подставка для ноутбука алюминиевая",
+      "slug": "podstavka-dlya-noutbuka-alyuminievaya",
+      "description": "Складная алюминиевая подставка для улучшения охлаждения ноутбука.",
+      "price": 189000,
+      "created_at": "2024-02-04T10:15:00Z",
+      "updated_at": "2024-02-04T10:15:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 43,
+    "fields": {
+      "category": 30,
+      "name": "Монопод селфи с Bluetooth",
+      "slug": "monopod-selfi-s-bluetooth",
+      "description": "Телескопический монопод с пультом дистанционного управления.",
+      "price": 165000,
+      "created_at": "2024-02-04T14:30:00Z",
+      "updated_at": "2024-02-04T14:30:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 44,
+    "fields": {
+      "category": 30,
+      "name": "Монопод-штатив с Bluetooth",
+      "slug": "monopod-shtativ-s-bluetooth",
+      "description": "Трансформер: монопод и штатив с пультом для съемки.",
+      "price": 215000,
+      "created_at": "2024-02-05T09:50:00Z",
+      "updated_at": "2024-02-05T09:50:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 45,
+    "fields": {
+      "category": 31,
+      "name": "Крепление для велосипеда универсальное",
+      "slug": "kreplenie-dlya-velosipeda-universalnoe",
+      "description": "Надежное крепление для смартфона на руль велосипеда.",
+      "price": 95000,
+      "created_at": "2024-02-05T15:20:00Z",
+      "updated_at": "2024-02-05T15:20:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 46,
+    "fields": {
+      "category": 32,
+      "name": "Магнитное кольцо для MagSafe",
+      "slug": "magnitnoe-koltso-dlya-magsafe",
+      "description": "Наклейка-кольцо для использования MagSafe на любых чехлах.",
+      "price": 37000,
+      "created_at": "2024-02-06T11:10:00Z",
+      "updated_at": "2024-02-06T11:10:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 47,
+    "fields": {
+      "category": 32,
+      "name": "Магнитный держатель для автомобиля",
+      "slug": "magnitnyy-derzhatel-dlya-avtomobilya",
+      "description": "Компактный держатель с мощными магнитами, крепление на вентиляцию.",
+      "price": 79000,
+      "created_at": "2024-02-06T16:35:00Z",
+      "updated_at": "2024-02-06T16:35:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 48,
+    "fields": {
+      "category": 35,
+      "name": "Ультрабук ASUS ZenBook 14",
+      "slug": "ultrabuk-asus-zenbook-14",
+      "description": "Легкий и тонкий ноутбук с OLED экраном и процессором Intel Core i7.",
+      "price": 11519000,
+      "created_at": "2024-02-07T10:25:00Z",
+      "updated_at": "2024-02-07T10:25:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 49,
+    "fields": {
+      "category": 35,
+      "name": "Ультрабук MacBook Air 13\" M2",
+      "slug": "ultrabuk-macbook-air-13-m2",
+      "description": "Тонкий и легкий ноутбук Apple с чипом M2 и пассивным охлаждением.",
+      "price": 12795000,
+      "created_at": "2024-02-07T14:40:00Z",
+      "updated_at": "2024-02-07T14:40:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 50,
+    "fields": {
+      "category": 36,
+      "name": "Игровой ноутбук MSI Katana 15",
+      "slug": "igrovoy-noutbuk-msi-katana-15",
+      "description": "Мощный игровой ноутбук с RTX 4060 и 16GB RAM.",
+      "price": 15999000,
+      "created_at": "2024-02-08T09:15:00Z",
+      "updated_at": "2024-02-08T09:15:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 51,
+    "fields": {
+      "category": 36,
+      "name": "Игровой ноутбук ASUS ROG Strix G16",
+      "slug": "igrovoy-noutbuk-asus-rog-strix-g16",
+      "description": "Производительный игровой ноутбук с RTX 4070 и 32GB RAM.",
+      "price": 19190000,
+      "created_at": "2024-02-08T15:30:00Z",
+      "updated_at": "2024-02-08T15:30:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 52,
+    "fields": {
+      "category": 37,
+      "name": "Ноутбук-трансформер Lenovo Yoga 9i",
+      "slug": "noutbuk-transformer-lenovo-yoga-9i",
+      "description": "14-дюймовый ноутбук с сенсорным экраном, вращается на 360 градусов.",
+      "price": 14715000,
+      "created_at": "2024-02-09T11:45:00Z",
+      "updated_at": "2024-02-09T11:45:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 53,
+    "fields": {
+      "category": 37,
+      "name": "Планшет-трансформер Microsoft Surface Pro 9",
+      "slug": "planshet-transformer-microsoft-surface-pro-9",
+      "description": "Планшет с клавиатурой, работает на Windows 11.",
+      "price": 14015000,
+      "created_at": "2024-02-09T16:20:00Z",
+      "updated_at": "2024-02-09T16:20:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 54,
+    "fields": {
+      "category": 38,
+      "name": "Бизнес-ноутбук Dell Latitude 5440",
+      "slug": "biznes-noutbuk-dell-latitude-5440",
+      "description": "Надежный ноутбук для бизнеса с защитой данных и долгим временем работы.",
+      "price": 10815000,
+      "created_at": "2024-02-10T10:30:00Z",
+      "updated_at": "2024-02-10T10:30:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 55,
+    "fields": {
+      "category": 38,
+      "name": "Бизнес-ноутбук HP EliteBook 840",
+      "slug": "biznes-noutbuk-hp-elitebook-840",
+      "description": "Премиальный ноутбук с корпусом из алюминия и улучшенной безопасностью.",
+      "price": 12155000,
+      "created_at": "2024-02-10T15:15:00Z",
+      "updated_at": "2024-02-10T15:15:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 56,
+    "fields": {
+      "category": 39,
+      "name": "Нетбук Acer Aspire 1",
+      "slug": "netbuk-acer-aspire-1",
+      "description": "Компактный и легкий ноутбук для базовых задач.",
+      "price": 3830000,
+      "created_at": "2024-02-11T09:45:00Z",
+      "updated_at": "2024-02-11T09:45:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 57,
+    "fields": {
+      "category": 42,
+      "name": "Процессор Intel Core i5-13400F",
+      "slug": "protsessor-intel-core-i5-13400f",
+      "description": "10-ядерный процессор для игровых и рабочих сборок.",
+      "price": 2430000,
+      "created_at": "2024-02-11T14:50:00Z",
+      "updated_at": "2024-02-11T14:50:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 58,
+    "fields": {
+      "category": 42,
+      "name": "Процессор Intel Core i7-13700K",
+      "slug": "protsessor-intel-core-i7-13700k",
+      "description": "16-ядерный процессор для производительных систем.",
+      "price": 4155000,
+      "created_at": "2024-02-12T11:20:00Z",
+      "updated_at": "2024-02-12T11:20:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 59,
+    "fields": {
+      "category": 43,
+      "name": "Процессор AMD Ryzen 5 7600X",
+      "slug": "protsessor-amd-ryzen-5-7600x",
+      "description": "6-ядерный процессор на архитектуре Zen 4.",
+      "price": 2687000,
+      "created_at": "2024-02-12T16:35:00Z",
+      "updated_at": "2024-02-12T16:35:00Z"
+    }
+  },
+  {
+    "model": "apps.product",
+    "pk": 60,
+    "fields": {
+      "category": 43,
+      "name": "Процессор AMD Ryzen 7 7800X3D",
+      "slug": "protsessor-amd-ryzen-7-7800x3d",
+      "description": "8-ядерный процессор с 3D V-Cache для игр.",
+      "price": 4155000,
+      "created_at": "2024-02-13T10:15:00Z",
+      "updated_at": "2024-02-13T10:15:00Z"
+    }
+  }
+]

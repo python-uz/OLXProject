@@ -1,4 +1,4 @@
-from django.db.models import CharField, Model, ForeignKey, CASCADE, IntegerField, ImageField, SlugField
+from django.db.models import CharField, Model, ForeignKey, CASCADE, IntegerField, ImageField, SlugField, DateTimeField
 
 
 class Product(Model):
@@ -7,6 +7,8 @@ class Product(Model):
     category = ForeignKey('apps.Category', on_delete=CASCADE, related_name='products')
     price = IntegerField()
     description = CharField(max_length=255, blank=True)
+    created_at = DateTimeField(auto_now=True)
+    updated_at = DateTimeField(auto_now_add=True)
 
     def __str__(self):
         return self.name

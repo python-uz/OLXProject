@@ -1,0 +1,782 @@
+[
+  {
+    "model": "apps.category",
+    "pk": 1,
+    "fields": {
+      "name": "Смартфоны и гаджеты",
+      "slug": "smartfony-i-gadzhety",
+      "parent": null,
+      "lft": 1,
+      "rght": 66,
+      "tree_id": 1,
+      "level": 0
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 2,
+    "fields": {
+      "name": "Аксессуары для смартфонов",
+      "slug": "aksessuary-dlya-smartfonov",
+      "parent": 1,
+      "lft": 2,
+      "rght": 33,
+      "tree_id": 1,
+      "level": 1
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 3,
+    "fields": {
+      "name": "Чехлы",
+      "slug": "chekhly",
+      "parent": 2,
+      "lft": 3,
+      "rght": 12,
+      "tree_id": 1,
+      "level": 2
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 4,
+    "fields": {
+      "name": "Силиконовые чехлы",
+      "slug": "silikonovye-chekhly",
+      "parent": 3,
+      "lft": 4,
+      "rght": 5,
+      "tree_id": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 5,
+    "fields": {
+      "name": "Кожаные чехлы",
+      "slug": "kozhanye-chekhly",
+      "parent": 3,
+      "lft": 6,
+      "rght": 7,
+      "tree_id": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 6,
+    "fields": {
+      "name": "Чехлы-книжки",
+      "slug": "chekhly-knizhki",
+      "parent": 3,
+      "lft": 8,
+      "rght": 9,
+      "tree_id": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 7,
+    "fields": {
+      "name": "Ударопрочные чехлы",
+      "slug": "udaroprochnye-chekhly",
+      "parent": 3,
+      "lft": 10,
+      "rght": 11,
+      "tree_id": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 8,
+    "fields": {
+      "name": "Чехлы с подставкой",
+      "slug": "chekhly-s-podstavkoy",
+      "parent": 3,
+      "lft": 12,
+      "rght": 13,
+      "tree_id": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 9,
+    "fields": {
+      "name": "Защитные стекла и пленки",
+      "slug": "zashchitnye-stekla-i-plenki",
+      "parent": 2,
+      "lft": 14,
+      "rght": 23,
+      "tree_id": 1,
+      "level": 2
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 10,
+    "fields": {
+      "name": "Закаленные стекла 2.5D",
+      "slug": "zakalennye-stekla-25d",
+      "parent": 9,
+      "lft": 15,
+      "rght": 16,
+      "tree_id": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 11,
+    "fields": {
+      "name": "Закаленные стекла 3D",
+      "slug": "zakalennye-stekla-3d",
+      "parent": 9,
+      "lft": 17,
+      "rght": 18,
+      "tree_id": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 12,
+    "fields": {
+      "name": "Гидрогелевые пленки",
+      "slug": "gidrogelevye-plenki",
+      "parent": 9,
+      "lft": 19,
+      "rght": 20,
+      "tree_id": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 13,
+    "fields": {
+      "name": "Матовые пленки",
+      "slug": "matovye-plenki",
+      "parent": 9,
+      "lft": 21,
+      "rght": 22,
+      "tree_id": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 14,
+    "fields": {
+      "name": "Приватные пленки",
+      "slug": "privatnye-plenki",
+      "parent": 9,
+      "lft": 23,
+      "rght": 24,
+      "tree_id": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 15,
+    "fields": {
+      "name": "Зарядные устройства",
+      "slug": "zaryadnye-ustroystva",
+      "parent": 2,
+      "lft": 25,
+      "rght": 34,
+      "tree_id": 1,
+      "level": 2
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 16,
+    "fields": {
+      "name": "Сетевые зарядки",
+      "slug": "setevye-zaryadki",
+      "parent": 15,
+      "lft": 26,
+      "rght": 27,
+      "tree_id": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 17,
+    "fields": {
+      "name": "Автомобильные зарядки",
+      "slug": "avtomobilnye-zaryadki",
+      "parent": 15,
+      "lft": 28,
+      "rght": 29,
+      "tree_id": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 18,
+    "fields": {
+      "name": "Беспроводные зарядки",
+      "slug": "besprovodnye-zaryadki",
+      "parent": 15,
+      "lft": 30,
+      "rght": 31,
+      "tree_id": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 19,
+    "fields": {
+      "name": "Пауэрбанки",
+      "slug": "pauerbanki",
+      "parent": 15,
+      "lft": 32,
+      "rght": 33,
+      "tree_id": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 20,
+    "fields": {
+      "name": "Зарядные станции",
+      "slug": "zaryadnye-stantsii",
+      "parent": 15,
+      "lft": 34,
+      "rght": 35,
+      "tree_id": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 21,
+    "fields": {
+      "name": "Кабели и переходники",
+      "slug": "kabeli-i-perekhodniki",
+      "parent": 2,
+      "lft": 36,
+      "rght": 45,
+      "tree_id": 1,
+      "level": 2
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 22,
+    "fields": {
+      "name": "USB Type-C кабели",
+      "slug": "usb-type-c-kabeli",
+      "parent": 21,
+      "lft": 37,
+      "rght": 38,
+      "tree_id": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 23,
+    "fields": {
+      "name": "Lightning кабели",
+      "slug": "lightning-kabeli",
+      "parent": 21,
+      "lft": 39,
+      "rght": 40,
+      "tree_id": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 24,
+    "fields": {
+      "name": "Micro-USB кабели",
+      "slug": "micro-usb-kabeli",
+      "parent": 21,
+      "lft": 41,
+      "rght": 42,
+      "tree_id": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 25,
+    "fields": {
+      "name": "Переходники OTG",
+      "slug": "perekhodniki-otg",
+      "parent": 21,
+      "lft": 43,
+      "rght": 44,
+      "tree_id": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 26,
+    "fields": {
+      "name": "Адаптеры HDMI",
+      "slug": "adaptery-hdmi",
+      "parent": 21,
+      "lft": 45,
+      "rght": 46,
+      "tree_id": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 27,
+    "fields": {
+      "name": "Держатели и моноподы",
+      "slug": "derzhateli-i-monopody",
+      "parent": 2,
+      "lft": 47,
+      "rght": 56,
+      "tree_id": 1,
+      "level": 2
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 28,
+    "fields": {
+      "name": "Автомобильные держатели",
+      "slug": "avtomobilnye-derzhateli",
+      "parent": 27,
+      "lft": 48,
+      "rght": 49,
+      "tree_id": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 29,
+    "fields": {
+      "name": "Настольные подставки",
+      "slug": "nastolnye-podstavki",
+      "parent": 27,
+      "lft": 50,
+      "rght": 51,
+      "tree_id": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 30,
+    "fields": {
+      "name": "Моноподы селфи",
+      "slug": "monopody-selfi",
+      "parent": 27,
+      "lft": 52,
+      "rght": 53,
+      "tree_id": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 31,
+    "fields": {
+      "name": "Крепления для велосипеда",
+      "slug": "krepleniya-dlya-velosipeda",
+      "parent": 27,
+      "lft": 54,
+      "rght": 55,
+      "tree_id": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 32,
+    "fields": {
+      "name": "Магнитные держатели",
+      "slug": "magnitnye-derzhateli",
+      "parent": 27,
+      "lft": 56,
+      "rght": 57,
+      "tree_id": 1,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 33,
+    "fields": {
+      "name": "Ноутбуки и компьютеры",
+      "slug": "noutbuki-i-kompyutery",
+      "parent": null,
+      "lft": 1,
+      "rght": 62,
+      "tree_id": 2,
+      "level": 0
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 34,
+    "fields": {
+      "name": "Ноутбуки",
+      "slug": "noutbuki",
+      "parent": 33,
+      "lft": 2,
+      "rght": 11,
+      "tree_id": 2,
+      "level": 1
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 35,
+    "fields": {
+      "name": "Ультрабуки",
+      "slug": "ultrabuki",
+      "parent": 34,
+      "lft": 3,
+      "rght": 4,
+      "tree_id": 2,
+      "level": 2
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 36,
+    "fields": {
+      "name": "Игровые ноутбуки",
+      "slug": "igrovye-noutbuki",
+      "parent": 34,
+      "lft": 5,
+      "rght": 6,
+      "tree_id": 2,
+      "level": 2
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 37,
+    "fields": {
+      "name": "Трансформеры",
+      "slug": "transformery",
+      "parent": 34,
+      "lft": 7,
+      "rght": 8,
+      "tree_id": 2,
+      "level": 2
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 38,
+    "fields": {
+      "name": "Бизнес-ноутбуки",
+      "slug": "biznes-noutbuki",
+      "parent": 34,
+      "lft": 9,
+      "rght": 10,
+      "tree_id": 2,
+      "level": 2
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 39,
+    "fields": {
+      "name": "Нетбуки",
+      "slug": "netbuki",
+      "parent": 34,
+      "lft": 11,
+      "rght": 12,
+      "tree_id": 2,
+      "level": 2
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 40,
+    "fields": {
+      "name": "Комплектующие для ПК",
+      "slug": "komplektuyushchie-dlya-pk",
+      "parent": 33,
+      "lft": 13,
+      "rght": 38,
+      "tree_id": 2,
+      "level": 1
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 41,
+    "fields": {
+      "name": "Процессоры",
+      "slug": "protsessory",
+      "parent": 40,
+      "lft": 14,
+      "rght": 19,
+      "tree_id": 2,
+      "level": 2
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 42,
+    "fields": {
+      "name": "Intel",
+      "slug": "intel",
+      "parent": 41,
+      "lft": 15,
+      "rght": 16,
+      "tree_id": 2,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 43,
+    "fields": {
+      "name": "AMD",
+      "slug": "amd",
+      "parent": 41,
+      "lft": 17,
+      "rght": 18,
+      "tree_id": 2,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 44,
+    "fields": {
+      "name": "Видеокарты",
+      "slug": "videokarty",
+      "parent": 40,
+      "lft": 20,
+      "rght": 25,
+      "tree_id": 2,
+      "level": 2
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 45,
+    "fields": {
+      "name": "NVIDIA",
+      "slug": "nvidia",
+      "parent": 44,
+      "lft": 21,
+      "rght": 22,
+      "tree_id": 2,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 46,
+    "fields": {
+      "name": "AMD Radeon",
+      "slug": "amd-radeon",
+      "parent": 44,
+      "lft": 23,
+      "rght": 24,
+      "tree_id": 2,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 47,
+    "fields": {
+      "name": "Материнские платы",
+      "slug": "materinskie-platy",
+      "parent": 40,
+      "lft": 26,
+      "rght": 27,
+      "tree_id": 2,
+      "level": 2
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 48,
+    "fields": {
+      "name": "Оперативная память",
+      "slug": "operativnaya-pamyat",
+      "parent": 40,
+      "lft": 28,
+      "rght": 33,
+      "tree_id": 2,
+      "level": 2
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 49,
+    "fields": {
+      "name": "DDR4",
+      "slug": "ddr4",
+      "parent": 48,
+      "lft": 29,
+      "rght": 30,
+      "tree_id": 2,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 50,
+    "fields": {
+      "name": "DDR5",
+      "slug": "ddr5",
+      "parent": 48,
+      "lft": 31,
+      "rght": 32,
+      "tree_id": 2,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 51,
+    "fields": {
+      "name": "Накопители SSD",
+      "slug": "nakopiteli-ssd",
+      "parent": 40,
+      "lft": 34,
+      "rght": 39,
+      "tree_id": 2,
+      "level": 2
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 52,
+    "fields": {
+      "name": "M.2 NVMe",
+      "slug": "m2-nvme",
+      "parent": 51,
+      "lft": 35,
+      "rght": 36,
+      "tree_id": 2,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 53,
+    "fields": {
+      "name": "SATA III",
+      "slug": "sata-iii",
+      "parent": 51,
+      "lft": 37,
+      "rght": 38,
+      "tree_id": 2,
+      "level": 3
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 54,
+    "fields": {
+      "name": "Блоки питания",
+      "slug": "bloki-pitaniya",
+      "parent": 40,
+      "lft": 40,
+      "rght": 41,
+      "tree_id": 2,
+      "level": 2
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 55,
+    "fields": {
+      "name": "Мониторы",
+      "slug": "monitory",
+      "parent": 33,
+      "lft": 42,
+      "rght": 47,
+      "tree_id": 2,
+      "level": 1
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 56,
+    "fields": {
+      "name": "Игровые мониторы",
+      "slug": "igrovye-monitory",
+      "parent": 55,
+      "lft": 43,
+      "rght": 44,
+      "tree_id": 2,
+      "level": 2
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 57,
+    "fields": {
+      "name": "Для дизайнеров",
+      "slug": "dlya-dizaynerov",
+      "parent": 55,
+      "lft": 45,
+      "rght": 46,
+      "tree_id": 2,
+      "level": 2
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 58,
+    "fields": {
+      "name": "Изогнутые мониторы",
+      "slug": "izognutye-monitory",
+      "parent": 55,
+      "lft": 47,
+      "rght": 48,
+      "tree_id": 2,
+      "level": 2
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 59,
+    "fields": {
+      "name": "Периферия",
+      "slug": "periferiya",
+      "parent": 33,
+      "lft": 49,
+      "rght": 62,
+      "tree_id": 2,
+      "level": 1
+    }
+  },
+  {
+    "model": "apps.category",
+    "pk": 60,
+    "fields": {
+      "name": "Клавиатуры",
+      "slug": "klaviatury",
+      "parent": 59,
+      "lft": 50,
+      "rght": 55,
+      "tree_id": 2,
+      "level": 2
+    }
+  }
+]
