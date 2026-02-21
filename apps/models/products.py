@@ -14,7 +14,6 @@ class Product(Model):
         return self.name
 
 
-
 class ProductSpecification(Model):
     product = ForeignKey('apps.Product', on_delete=CASCADE, related_name='specs')
     name = CharField(max_length=100)

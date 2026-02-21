@@ -3,6 +3,7 @@ from django.db.models import SlugField
 from django.utils.text import slugify
 from mptt.models import MPTTModel, TreeForeignKey
 
+
 class Category(MPTTModel):
     name = models.CharField(max_length=55, unique=True)
     slug = SlugField(max_length=55, unique=True, editable=False)
