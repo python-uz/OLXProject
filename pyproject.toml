@@ -9,6 +9,7 @@ dependencies = [
     "django-filter>=25.2",
     "django-humanize>=0.1.2",
     "django-jazzmin==2.6.2",
+    "django-json-widget>=2.1.1",
     "django-mptt>=0.18.0",
     "djangorestframework>=3.16.1",
     "djangorestframework-recursive>=0.1.2",

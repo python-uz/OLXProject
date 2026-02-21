@@ -16,13 +16,10 @@ class User(AbstractUser):
     phone = CharField(max_length=15, validators=[uz_phone_validator], unique=True)
     type = CharField(max_length=25, choices=Type.choices, default=Type.USER)
     birth_date = DateField(null=True, blank=True)
+    balance = BigIntegerField(default=0)
+
 
     objects = CustomUserManager()
 
     username = None
     USERNAME_FIELD = 'phone'
-
-
-class UserBalance(Model):
-    user = OneToOneField('apps.User', CASCADE, related_name='user_balance')
-    balance = BigIntegerField(default=0)

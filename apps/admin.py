@@ -1,10 +1,15 @@
 from django.contrib import admin
+from django.db.models import JSONField
+from django_json_widget.widgets import JSONEditorWidget
 from apps.models import Category, Product, ProductImage, ProductSpecification
 
 
 @admin.register(Category)
 class CategoryAdmin(admin.ModelAdmin):
     list_display = ['name', 'parent']
+    formfield_overrides = {
+        JSONField: {'widget': JSONEditorWidget},
+    }
 
 
 class ProductImageTabularInline(admin.TabularInline):

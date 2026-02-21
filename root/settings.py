@@ -36,7 +36,7 @@ THIRD_PARTY_APPS = [
     'mptt',
     'rest_framework',
     'drf_spectacular',
-
+    'django_json_widget',
 ]
 
 

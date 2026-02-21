@@ -1,13 +1,14 @@
-from django.db import models
-from django.db.models import SlugField
+from django.db.models import SlugField, ImageField, JSONField, CASCADE, CharField
 from django.utils.text import slugify
 from mptt.models import MPTTModel, TreeForeignKey
 
 
 class Category(MPTTModel):
-    name = models.CharField(max_length=55, unique=True)
+    name = CharField(max_length=55, unique=True)
     slug = SlugField(max_length=55, unique=True, editable=False)
-    parent = TreeForeignKey('self', on_delete=models.CASCADE, null=True, blank=True, related_name='children')
+    image = ImageField(upload_to='categories/', blank=True, null=True)
+    parent = TreeForeignKey('self', on_delete= CASCADE, null=True, blank=True, related_name='children')
+    attribute = JSONField(blank=True, null=True)
 
     def save(self, *args, **kwargs):
         self.slug = slugify(self.name)
