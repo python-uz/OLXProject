@@ -20,7 +20,7 @@ cmake-build-*/
 .idea
 TODO
 .env
-static
+media
 out/
 .idea_modules/
 atlassian-ide-plugin.xml
