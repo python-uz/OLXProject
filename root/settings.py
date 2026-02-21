@@ -2,11 +2,9 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 
-
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 load_dotenv('.env')
 BASE_DIR = Path(__file__).resolve().parent.parent
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/6.0/howto/deployment/checklist/
@@ -19,9 +17,9 @@ DEBUG = os.getenv('DEBUG')
 
 ALLOWED_HOSTS = ['*']
 
-
 # Application definition
 DJANGO_APPS = [
+    "unfold",
     # 'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -31,7 +29,6 @@ DJANGO_APPS = [
     'django.contrib.staticfiles',
 ]
 
-
 THIRD_PARTY_APPS = [
     'mptt',
     'rest_framework',
@@ -39,13 +36,11 @@ THIRD_PARTY_APPS = [
     'django_json_widget',
 ]
 
-
 LOCAL_APPS = [
     'apps.apps.AppsConfig',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
-
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -93,7 +88,6 @@ DATABASES = {
     }
 }
 
-
 REDIS_HOST = os.getenv('REDIS_HOST')
 REDIS_PORT = os.getenv('REDIS_PORT')
 REDIS_URL = f"redis://{REDIS_HOST}:{REDIS_PORT}"
@@ -106,7 +100,6 @@ CACHES = {
         "LOCATION": REDIS_URL,
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/6.0/ref/settings/#auth-password-validators
@@ -126,12 +119,10 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 PASSWORD_HASHERS = [
     "django.contrib.auth.hashers.Argon2PasswordHasher",
     "django.contrib.auth.hashers.PBKDF2PasswordHasher",
 ]
-
 
 # Internationalization
 # https://docs.djangoproject.com/en/6.0/topics/i18n/
@@ -144,7 +135,6 @@ USE_I18N = True
 
 USE_TZ = True
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
@@ -155,7 +145,6 @@ MEDIA_URL = 'media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
 
 REST_FRAMEWORK = {
     'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
@@ -179,7 +168,6 @@ REST_FRAMEWORK = {
     'NUM_PROXIES': 50
 }
 
-
 SPECTACULAR_SETTINGS = {
     'TITLE': 'DRF OLX project',
     'DESCRIPTION': 'First project',
@@ -191,8 +179,6 @@ SPECTACULAR_SETTINGS = {
         'deepLinking': True
     },
 }
-
-
 
 # JAZZMIN_SETTINGS = {
 #     # title of the window (Will default to current_admin_site.site_title if absent or None)
@@ -335,5 +321,3 @@ SPECTACULAR_SETTINGS = {
 #     # "language_chooser": True,
 # }
 #
-
-

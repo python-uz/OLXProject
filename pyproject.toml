@@ -11,6 +11,7 @@ dependencies = [
     "django-jazzmin==2.6.2",
     "django-json-widget>=2.1.1",
     "django-mptt>=0.18.0",
+    "django-unfold>=0.80.2",
     "djangorestframework>=3.16.1",
     "djangorestframework-recursive>=0.1.2",
     "djangorestframework-stubs>=3.16.8",
